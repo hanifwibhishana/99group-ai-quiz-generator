@@ -1,0 +1,21 @@
+app.py
+# 1. Environment Variables / Secrets (SANGAT KRITIKAL)
+# .env
+
+# 2. Local Database / Generated Data
+# Mencegah kuis lokal Anda menimpa database saat di-clone
+data/quizzes.json
+
+# 3. Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 4. Virtual Environments
+venv/
+env/
+.venv/
+
+# 5. OS Generated Files
+.DS_Store
+Thumbs.db
