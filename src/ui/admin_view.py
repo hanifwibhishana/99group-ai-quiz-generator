@@ -9,7 +9,7 @@ def render():
     topic = st.text_input("Masukkan Topik (Contoh: Aturan Pajak Properti 2026)")
 
     if st.button("Generate & Draft Quiz") and topic:
-        with st.spinner("Scraping web & meng-generate kuis dengan Llama 3.1..."):
+        with st.spinner("Scraping web & meng-generate kuis dengan gpt-oss-120b"):
             try:
                 quiz_data = generate_quiz_with_rag(topic)
                 st.session_state['draft_quiz'] = quiz_data
