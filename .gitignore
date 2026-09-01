@@ -1,6 +1,7 @@
 app.py
 # 1. Environment Variables / Secrets (SANGAT KRITIKAL)
-# .env
+.env
+.env copy
 
 # 2. Local Database / Generated Data
 # Mencegah kuis lokal Anda menimpa database saat di-clone
@@ -19,3 +20,4 @@ env/
 # 5. OS Generated Files
 .DS_Store
 Thumbs.db
+.gitignore
